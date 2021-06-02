@@ -1,16 +1,14 @@
-body
-{
+body {
     display: flex;
     align-items: center;
     justify-content: center;
     min-height: 100vh;
     background: #2196f3;  /* fallback for old browsers */
-background: -webkit-linear-gradient(to right, #f44336, #2196f3);  /* Chrome 10-25, Safari 5.1-6 */
-background: linear-gradient(to right, #f44336, #2196f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
-
+    background: -webkit-linear-gradient(to right, #f44336, #2196f3);  /* Chrome 10-25, Safari 5.1-6 */
+    background: linear-gradient(to right, #f44336, #2196f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
 }
-.container_encryption
-{
+
+.container_encryption {
     margin-top: 50px;
     margin-left: 290px;
     border: 0.2px solid rgb(149, 149, 149);
@@ -22,25 +20,54 @@ background: linear-gradient(to right, #f44336, #2196f3); /* W3C, IE 10+/ Edge, F
     background-color: white;
     box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
     transition: 0.3s;
-    
-
 }
-form
-{
+
+form {
     margin-top: -40px;
 }
 
-input{
+input {
     width: 100%;
     padding: 16px;
-    margin: 0px 0px;
     margin-bottom: 20px;
     display: inline-block;
     border: 1px solid #004e92;
     box-sizing: border-box;
     border-radius: 15px;
 }
-label{
+
+label {
     font-size: 18px;
     font-weight: semi-bold;
+}
+
+@media screen and (max-width: 1272px) {
+    .display-1 {
+        margin-top: 25%;
+        margin-bottom: 15%;
+        text-align: center;
+    }
+    body {
+        display: block;
+        background: #2196f3;
+        background: -webkit-linear-gradient(to bottom, #f44336, #2196f3);
+        background: linear-gradient(to bottom, #f44336, #2196f3);
+    }
+    .container_encryption {
+        display: flexbox;
+        margin: 0;
+        height: 450px;
+        width: 100%;
+    }
+}
+@media screen and (max-width: 380px) {
+    form {
+        padding: 20px;
+    }
+    input {
+        padding: 10px;
+    }
+    label {
+        font-size: 15px;
+    }
 }
