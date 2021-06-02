@@ -1,0 +1,46 @@
+body
+{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 100vh;
+    background: #2196f3;  /* fallback for old browsers */
+background: -webkit-linear-gradient(to right, #f44336, #2196f3);  /* Chrome 10-25, Safari 5.1-6 */
+background: linear-gradient(to right, #f44336, #2196f3); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+}
+.container_encryption
+{
+    margin-top: 50px;
+    margin-left: 290px;
+    border: 0.2px solid rgb(149, 149, 149);
+    height: 450px;width: 500px;
+    display: flex;
+    border-radius: 12px;
+    justify-content: center;
+    align-items: center;
+    background-color: white;
+    box-shadow: 0 4px 8px 0 rgba(0,0,0,0.2);
+    transition: 0.3s;
+    
+
+}
+form
+{
+    margin-top: -40px;
+}
+
+input{
+    width: 100%;
+    padding: 16px;
+    margin: 0px 0px;
+    margin-bottom: 20px;
+    display: inline-block;
+    border: 1px solid #004e92;
+    box-sizing: border-box;
+    border-radius: 15px;
+}
+label{
+    font-size: 18px;
+    font-weight: semi-bold;
+}
